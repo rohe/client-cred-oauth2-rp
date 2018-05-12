@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# IntelliJ project folder
+.idea
+
+# Other dev-env folders and files
+.vagrant
+Vagrantfile
