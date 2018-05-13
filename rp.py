@@ -14,8 +14,8 @@ from oidcservice.service import REQUEST_INFO
 from oidcservice.service import SUCCESSFUL
 from oidcservice.service_context import ServiceContext
 
-from service import AccessToken
-from service import RefreshAccessToken
+from oidcservice.oauth2.client_credentials import AccessToken
+from oidcservice.oauth2.client_credentials import RefreshAccessToken
 
 __author__ = 'Roland Hedberg'
 

@@ -52,7 +52,7 @@ class TestRP():
         _info = _srv.get_request_parameters()
         assert _info['method'] == 'POST'
         assert _info['url'] == 'https://example.com/token'
-        assert _info['body'] == 'grant_type=refresh_token&client_id=client_id&client_secret=client_secret'
+        assert _info['body'] == 'grant_type=refresh_token'
         assert _info['headers'] == {
             'Authorization': 'Bearer tGzv3JOkF0XG5Qx2TlKWIA',
             'Content-Type': 'application/x-www-form-urlencoded'
